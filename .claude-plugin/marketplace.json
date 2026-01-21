@@ -3,7 +3,7 @@
   "description": "Writing skills for fiction and narrative nonfiction authors",
   "owner": {
     "name": "rhavekost",
-    "email": "contact@example.com"
+    "email": "rob@kostlabs.com"
   },
   "plugins": [
     {
@@ -13,7 +13,7 @@
       "source": "./",
       "author": {
         "name": "rhavekost",
-        "email": "contact@example.com"
+        "email": "rob@kostlabs.com"
       }
     }
   ]
