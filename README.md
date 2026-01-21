@@ -43,7 +43,14 @@ Add to `.claude/settings.json`:
 
 ## Usage
 
-Skills activate automatically based on context, or invoke them directly:
+Invoke skills directly:
+
+```bash
+/author-toolkit:fiction-workshop
+/author-toolkit:narrative-nonfiction
+```
+
+Once activated, work with the editorial personas:
 
 ```
 # Fiction
@@ -59,18 +66,18 @@ Skills activate automatically based on context, or invoke them directly:
 
 ## Quick Reference
 
-| Need | Command |
-|------|---------|
-| Start fiction project | "Let's build a story bible for [project]" |
-| Developmental pass | "As developmental editor, analyze [chapter]" |
-| Line edit | "As line editor, polish [scene]" |
-| Character check | "As character consultant, is this in character?" |
-| Continuity audit | "As continuity tracker, check for inconsistencies" |
-| Get unstuck | "Brainstorm mode—I need to [solve problem]" |
-| Start nonfiction project | "Let's build a blueprint for [book]" |
-| Reader journey | "Design the transformation arc" |
-| Metaphor check | "Check metaphor consistency" |
-| Exercise design | "Design exercises for [concept]" |
+| Need | Invoke Skill | Then Say |
+|------|--------------|----------|
+| Fiction writing/editing | `/author-toolkit:fiction-workshop` | "Let's build a story bible" or "As developmental editor, analyze Chapter 3" |
+| Developmental pass | `/author-toolkit:fiction-workshop` | "As developmental editor, analyze [chapter]" |
+| Line editing | `/author-toolkit:fiction-workshop` | "As line editor, polish [scene]" |
+| Character work | `/author-toolkit:fiction-workshop` | "As character consultant, is this in character?" |
+| Continuity check | `/author-toolkit:fiction-workshop` | "As continuity tracker, check for inconsistencies" |
+| Get unstuck | `/author-toolkit:fiction-workshop` | "Brainstorm mode—I need to [solve problem]" |
+| Nonfiction writing | `/author-toolkit:narrative-nonfiction` | "Let's build a blueprint for [book]" |
+| Reader journey | `/author-toolkit:narrative-nonfiction` | "Design the transformation arc" |
+| Metaphor consistency | `/author-toolkit:narrative-nonfiction` | "Check metaphor consistency in chapters 4-8" |
+| Exercise design | `/author-toolkit:narrative-nonfiction` | "Design exercises for [concept]" |
 
 ## License
 
