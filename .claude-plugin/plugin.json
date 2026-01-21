@@ -1,0 +1,24 @@
+{
+  "name": "author-toolkit",
+  "version": "1.0.0",
+  "description": "Claude Code skills for fiction and narrative nonfiction authors",
+  "author": {
+    "name": "rhavekost"
+  },
+  "skills": [
+    "../skills/fiction-workshop",
+    "../skills/narrative-nonfiction"
+  ],
+  "keywords": [
+    "writing",
+    "fiction",
+    "nonfiction",
+    "editing",
+    "author"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rhavekost/author-toolkit.git"
+  }
+}
