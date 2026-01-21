@@ -1,7 +1,5 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "author-toolkit",
-  "version": "1.0.0",
   "description": "Writing skills for fiction and narrative nonfiction authors",
   "owner": {
     "name": "rhavekost",
@@ -9,24 +7,14 @@
   },
   "plugins": [
     {
-      "name": "fiction-workshop",
-      "description": "Collaborative fiction writing with 5 editorial personas (developmental, line, character, continuity, brainstorm)",
+      "name": "author-toolkit",
+      "description": "Writing skills for fiction and narrative nonfiction authors",
       "version": "1.0.0",
+      "source": "./",
       "author": {
-        "name": "rhavekost"
-      },
-      "source": "./skills/fiction-workshop",
-      "category": "writing"
-    },
-    {
-      "name": "narrative-nonfiction",
-      "description": "Self-help and prescriptive nonfiction with transformation arc, metaphor consistency, and exercise design",
-      "version": "1.0.0",
-      "author": {
-        "name": "rhavekost"
-      },
-      "source": "./skills/narrative-nonfiction",
-      "category": "writing"
+        "name": "rhavekost",
+        "email": "contact@example.com"
+      }
     }
   ]
 }
