@@ -1,0 +1,17 @@
+{
+  "name": "author-toolkit-marketplace",
+  "displayName": "Author Toolkit",
+  "description": "Writing skills for fiction and narrative nonfiction authors",
+  "plugins": [
+    {
+      "name": "author-toolkit",
+      "displayName": "Author Toolkit",
+      "description": "Claude Code skills for fiction and narrative nonfiction authors",
+      "version": "1.0.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/rhavekost/author-toolkit.git"
+      }
+    }
+  ]
+}
