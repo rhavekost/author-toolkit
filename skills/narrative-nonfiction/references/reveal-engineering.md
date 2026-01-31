@@ -54,7 +54,7 @@ Present provocative behavior, then show obviously positive outcomes.
 
 **Technique 2: Sympathetic Examples**
 Show behaviors in people reader admires.
-> "Think of someone whose boundaries you respect. Notice: they're not actually [negative thing]."
+> "Think of someone whose work style you respect. Notice: they're not actually [negative thing]."
 
 **Technique 3: Slight Frame Wobble**
 Occasional moments where language clearly doesn't fit.
@@ -131,8 +131,8 @@ Track these elements:
 ## Testing the Reveal
 
 ### Beta Reader Questions
-1. When did you first suspect the "villain" frame wasn't quite right?
-2. How did Chapter 16 make you feel?
+1. When did you first suspect the initial frame wasn't quite right?
+2. How did the reveal chapter make you feel?
 3. Did the reveal feel earned or like a trick?
 4. Did it change how you see what you learned?
 
@@ -156,9 +156,9 @@ Track these elements:
 
 The reveal should trigger this sequence:
 1. **Recognition**: "Yes, I have felt this dissonance"
-2. **Relief**: "I knew this wasn't really villainy"
+2. **Relief**: "I knew this wasn't really the negative interpretation"
 3. **Validation**: "My needs are valid. I'm not broken."
-4. **Integration**: "I was becoming healthy, not evil"
-5. **Empowerment**: "I was the hero all along"
+4. **Integration**: "I was becoming healthy, not problematic"
+5. **Empowerment**: "I was on the right path all along"
 
 If any of these are missing, the reveal isn't engineered correctly.

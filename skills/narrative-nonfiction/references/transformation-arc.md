@@ -23,12 +23,12 @@ In narrative nonfiction, the reader is on a hero's journey:
 - What do they secretly fear?
 - What do they secretly hope?
 
-**Example Reader Entry State (Boundaries Book):**
-- Pain: Exhausted from people-pleasing, burned out
-- Tried: Traditional self-help, positive thinking, "just be nicer to yourself"
-- Believes: "I'm too needy/selfish if I have wants"
-- Fears: Being alone, abandoned, unloved
-- Hopes: Permission to want things, freedom from guilt
+**Example Reader Entry State (Productivity Book):**
+- Pain: Constantly busy but not accomplishing meaningful work
+- Tried: Time management apps, productivity hacks, working longer hours
+- Believes: "I'm lazy if I'm not always productive"
+- Fears: Falling behind, being seen as incompetent
+- Hopes: Focus on what matters, sustainable pace
 
 ### Exit State Vision
 
@@ -38,11 +38,11 @@ In narrative nonfiction, the reader is on a hero's journey:
 - How do they feel?
 - What's different in their daily life?
 
-**Example Reader Exit State (Boundaries Book):**
-- Believes: "My needs are valid; setting boundaries is healthy"
-- Can do: Say no, protect their time, pursue goals without guilt
-- Feels: Empowered, relieved, validated in their needs
-- Daily life: Less resentment, more energy, better relationships
+**Example Reader Exit State (Productivity Book):**
+- Believes: "Impact matters more than hours; rest enables productivity"
+- Can do: Prioritize ruthlessly, say no to distractions, work in focused blocks
+- Feels: In control, clear-headed, confident in their choices
+- Daily life: Meaningful progress, sustainable energy, space for what matters
 
 ### The Gap
 
@@ -164,10 +164,10 @@ For each chapter, define:
 2. What shift occurs
 3. What they believe/can do at chapter end
 
-Example (Boundaries Book Ch. 4 - "The Power of No"):
-- Start: "Saying no makes me a bad person"
-- Shift: Learns that no is a complete sentence, sees examples of healthy no's
-- End: "Saying no is self-preservation; I can try it small first"
+Example (Productivity Book Ch. 4 - "The 80/20 Principle"):
+- Start: "I need to work on everything equally"
+- Shift: Learns that 20% of efforts drive 80% of results, sees data on impact distribution
+- End: "I can focus on high-leverage work; it's strategic, not lazy"
 
 ## Testing the Arc
 

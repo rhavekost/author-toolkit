@@ -26,8 +26,8 @@ Reader examines their own experience.
 - Connecting to personal history
 - Identifying current patterns
 
-**Example (boundaries book):**
-> "List three times in the past month you said yes when you wanted to say no. What did it cost you? What were you afraid would happen if you said no?"
+**Example (productivity book):**
+> "List three times this week when you spent time on low-value tasks. What were you avoiding? What would have been a better use of that time?"
 
 ### 2. Writing Exercises
 Reader writes to process or prepare.
@@ -43,11 +43,11 @@ Reader writes to process or prepare.
 - Preparing for conversations
 - Creating resources to use later
 
-**Example (boundaries book):**
-> "Write three versions of 'no' for a request you typically say yes to:
-> 1. The softened no: 'I won't be able to do that this time.'
-> 2. The direct no: 'No, that doesn't work for me.'
-> 3. The bold no: 'No.' (Full stop. No explanation.)"
+**Example (career development book):**
+> "Write three versions of how you'd describe your career goals:
+> 1. The safe version: What you'd tell a casual acquaintance
+> 2. The honest version: What you'd tell a trusted mentor
+> 3. The bold version: What you'd write if no one would ever see it"
 
 ### 3. Action Exercises
 Reader does something in the real world.
@@ -63,8 +63,8 @@ Reader does something in the real world.
 - Gathering evidence that change is possible
 - Creating momentum
 
-**Example (boundaries book):**
-> "This week, decline one invitation you would normally accept. Notice: What happens? Were your fears realized? How do you feel?"
+**Example (habit formation book):**
+> "This week, replace one automatic habit with an intentional choice. Notice: How hard is it? What triggers the old habit? What makes the new one stick?"
 
 ### 4. Cognitive Exercises
 Reader changes thinking patterns.
@@ -80,10 +80,10 @@ Reader changes thinking patterns.
 - Building new mental habits
 - Creating internal resources
 
-**Example (boundaries book):**
-> "When guilt arises after setting a boundary, try this reframe:
-> 'I feel guilty' → 'I feel unfamiliar'
-> The guilt is just your nervous system not recognizing this new behavior yet."
+**Example (decision-making book):**
+> "When uncertainty paralyzes a decision, try this reframe:
+> 'I don't know the right answer' → 'I don't know the outcome yet'
+> Uncertainty is information scarcity, not personal failure."
 
 ### 5. Inventory Exercises
 Reader catalogs something about their life.
@@ -99,11 +99,11 @@ Reader catalogs something about their life.
 - Identifying patterns
 - Prioritization decisions
 
-**Example (boundaries book):**
-> "Create a Relationship Energy Inventory:
-> List everyone who regularly asks for your time/energy/money.
-> Rate each: Do they reciprocate? Is this relationship nourishing?
-> Star the ones where the balance is off."
+**Example (goal-setting book):**
+> "Create a Goals-Progress Inventory:
+> List all current goals and projects you're pursuing.
+> Rate each: Is this still important? Am I making progress?
+> Star the ones that need either renewed focus or graceful abandonment."
 
 ## Exercise Design Principles
 

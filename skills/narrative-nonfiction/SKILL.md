@@ -147,7 +147,7 @@ Use these checkpoints to verify you're following the workflow correctly.
 **After designing an exercise:**
 - [ ] Does the exercise difficulty match where the reader is in their journey?
 - [ ] Can the reader complete it with the knowledge they have so far?
-- [ ] Is it specific enough to be actionable (not "think about boundaries" but "notice one boundary moment")?
+- [ ] Is it specific enough to be actionable (not "improve your productivity" but "track your time for three days")?
 - [ ] Does it build on previous exercises?
 
 **After invoking a mode:**
@@ -181,23 +181,23 @@ If you answered "no" to any checkpoint, return to that stage before proceeding.
 
 **Inconsistent voice (Chapter 1 conversational, Chapter 4 academic):**
 
-Chapter 1: "You've probably felt that knot in your stomach when someone asks for a favor you don't want to do. That's your boundary trying to speak."
+Chapter 1: "You know that feeling of finishing a 'productive' day without accomplishing anything important? That's your brain telling you something's off."
 
-Chapter 4: "Empirical research demonstrates that individuals who establish clear interpersonal boundaries exhibit significantly higher levels of psychological well-being (Smith et al., 2019)."
+Chapter 4: "Empirical research demonstrates that individuals who engage in time-blocking methodologies exhibit significantly higher levels of task completion and subjective productivity (Chen et al., 2019)."
 
 **Consistent voice (both conversational):**
 
-Chapter 4: "Here's what the research shows: people who set clear boundaries are measurably happier. One study tracked 500 people for a year and found that boundary-setters reported 40% less stress. Your gut was right all along."
+Chapter 4: "Here's what the research shows: people who use time-blocking finish more important work. One study tracked 500 knowledge workers for six months and found time-blockers completed 60% more high-priority projects. Your instinct was right."
 
 **The difference:** Conversational voice maintains "you/your" address, uses plain language, and connects research to reader experience.
 
 ### Example: Forced vs. Natural Metaphor
 
-**Book metaphor: "Be the Villain"**
+**Book metaphor: "Think Like an Architect"**
 
-**Forced:** "When you wake up in the morning, put on your villain mask. Brush your villain teeth. Make villain coffee. Every moment is a chance to embrace your inner antagonist."
+**Forced:** "When you wake up in the morning, draft your day's blueprint. Pour your foundation coffee. Every moment is a chance to design your life's structure."
 
-**Natural:** "Villains don't apologize for taking up space. When you enter a meeting room, claim your seat without shrinking. That's villain energy—unapologetic presence."
+**Natural:** "Architects plan for what they need before breaking ground. When you start a project, identify your requirements first—don't just start building and hope it works out."
 
 **The difference:** Natural metaphor illuminates specific advice. Forced metaphor tries to shoehorn every detail into the frame.
 
@@ -205,18 +205,18 @@ Chapter 4: "Here's what the research shows: people who set clear boundaries are 
 
 **Early chapter exercise (reader just learning concept):**
 ```
-EXERCISE: Notice Your Boundaries
-This week, pay attention to one interaction per day where you felt uncomfortable.
-Just notice. Don't judge yourself or try to change anything yet.
-Write down: What happened? What did you feel in your body?
+EXERCISE: Track Your Time
+This week, log what you actually do for three full workdays.
+Just notice. Don't judge yourself or try to optimize yet.
+Write down: Where did your time go? When were you most focused?
 ```
 
 **Later chapter exercise (reader has practiced basics):**
 ```
-EXERCISE: Set One Boundary
-Choose a low-stakes situation this week (not your boss, not your spouse—start small).
-1. Identify what you want to say no to
-2. Script your boundary statement using the template from Chapter 3
+EXERCISE: Block Your First Deep Work Session
+Choose one morning this week (not your busiest day—start manageable).
+1. Identify your most important task
+2. Block 90 minutes using the protocol from Chapter 3
 3. Practice saying it out loud three times before the actual conversation
 4. Deliver the boundary
 5. Journal: What happened? How did you feel? What would you do differently?

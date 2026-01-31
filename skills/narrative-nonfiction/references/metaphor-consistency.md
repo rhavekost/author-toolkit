@@ -6,10 +6,10 @@ Managing an extended central metaphor throughout a book.
 
 A good central metaphor:
 - **Frames** the entire book's advice in memorable terms
-- **Gives permission** through reframing (calling boundaries "villain behavior" makes them feel powerful, not mean)
-- **Creates vocabulary** reader can use internally ("I need to go to my lair now")
-- **Builds identification** ("I'm a villain" → identity shift, not just behavior change)
-- **Makes abstract concrete** (self-advocacy → "having a monologue")
+- **Gives permission** through reframing (calling planning "architect's blueprints" makes it feel intentional, not rigid)
+- **Creates vocabulary** reader can use internally ("I need to review my blueprints")
+- **Builds identification** ("I'm an architect of my life" → identity shift, not just behavior change)
+- **Makes abstract concrete** (planning ahead → "drafting your design")
 
 ## The Metaphor Mapping Exercise
 
@@ -17,16 +17,16 @@ A good central metaphor:
 
 What does your metaphor domain contain?
 
-**Example Domain (Villain Metaphor):**
-- Origin story
-- Secret lair
-- Monologues
-- Henchmen
-- Standards/demands
-- Goals/schemes
-- Taking up space
-- Burning bridges
-- Triumph
+**Example Domain (Architect Metaphor):**
+- Blueprint/design
+- Foundation
+- Building materials
+- Load-bearing walls
+- Renovation
+- Master plan
+- Structural integrity
+- Zoning (space planning)
+- The finished structure
 
 ### Step 2: Map to Your Actual Advice
 
@@ -34,14 +34,14 @@ Each metaphor element should map to real advice:
 
 | Metaphor Element | Actual Teaching | Chapter |
 |-----------------|-----------------|---------|
-| Origin story | Trauma-induced people-pleasing | 1-3 |
-| Secret lair | Physical/temporal boundaries | 5 |
-| Monologue | Speaking your truth | 6 |
-| Standards | Personal values | 7 |
-| Henchmen | Support system | 14 |
-| Goals/schemes | Proactive living | 9 |
-| Taking up space | Physical/emotional presence | 12 |
-| Burning bridges | Ending relationships | 15 |
+| Blueprint | Vision and planning | 1-3 |
+| Foundation | Core values | 5 |
+| Load-bearing walls | Core principles | 6 |
+| Materials | Skills and resources | 7 |
+| Renovation | Changing patterns | 14 |
+| Master plan | Long-term goals | 9 |
+| Structural integrity | Consistency | 12 |
+| Zoning | Space planning and limits | 15 |
 
 ### Step 3: Identify Mapping Problems
 
@@ -50,8 +50,8 @@ Check for:
 - **Unmapped metaphor**: Metaphor elements you don't use (don't include them)
 - **Confusing maps**: Where the metaphor suggests something different than you mean
 
-**Example Problem**: "Villains betray people" → You don't want readers betraying others
-**Solution**: Don't use betrayal imagery; focus on other aspects like "prioritizing goals" instead
+**Example Problem**: "Architects demolish buildings" → You don't want readers destroying things carelessly
+**Solution**: Don't use demolition imagery; focus on other aspects like "renovation" or "structural improvement" instead
 
 ## Consistency Rules
 
@@ -62,27 +62,27 @@ Check for:
 
 ### 2. Don't Over-Explain
 Once established, trust the reader:
-- **Early book**: "Think of your boundaries as your secret lair—the fortress where you retreat to recharge."
-- **Later book**: "Time to go back to your lair." (Reader knows what you mean)
+- **Early book**: "Think of your core values as your foundation—the structural support that keeps everything stable."
+- **Later book**: "Time to reinforce that foundation." (Reader knows what you mean)
 
 ### 3. Consistent Terminology
 Pick terms and stick with them:
-- Decide: Is it "lair" or "fortress" or "sanctuary"?
+- Decide: Is it "blueprint" or "design" or "plan"?
 - Don't alternate randomly
 - Variation for style is fine, but have a default
 
 ### 4. Let the Metaphor Do Work
 
 **Weak (explaining around the metaphor):**
-> "When you set boundaries, you're protecting yourself. It's like how a villain has a lair—a place where they can be safe."
+> "When you establish your priorities, you're creating structure. It's like how an architect creates a foundation—a stable base that supports everything."
 
 **Strong (letting metaphor carry meaning):**
-> "Every villain needs a lair. Yours is that hour in the morning before anyone else wakes up."
+> "Every structure needs a foundation. Yours is that hour in the morning before anyone else wakes up."
 
 ### 5. Acknowledge Limitations
 
 When the metaphor breaks down, say so:
-> "Now, unlike movie villains, you're not actually trying to take over the world. But that ambition energy? That 'I want this and I'm going to get it' drive? That's what we're after."
+> "Now, unlike actual architects, you're not building with concrete and steel. But that planning mindset? That 'design before building' approach? That's what we're after."
 
 ## The "Twist" Metaphor Challenge
 
@@ -150,9 +150,9 @@ Per chapter, verify:
 
 The way you use the metaphor reflects tone:
 
-**Playful**: "Time to polish your villain credentials."
-**Warm**: "Your villain origin story isn't something to be ashamed of—it's how you survived."
-**Direct**: "Villains don't apologize for having needs. Neither should you."
-**Ironic**: "Congratulations on your first successful act of villainy: you said no to lunch."
+**Playful**: "Time to review your blueprints."
+**Warm**: "Your foundation wasn't built in a day—it's the result of everything you've learned."
+**Direct**: "Architects don't apologize for having specifications. Neither should you."
+**Ironic**: "Congratulations on your first structural improvement: you said no to lunch."
 
 Maintain consistent tone across the book.

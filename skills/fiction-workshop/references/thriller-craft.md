@@ -156,7 +156,7 @@ If more than 4 pages pass without one of these, look for cuts.
 |---------|-----|
 | "As you know, Bob" exposition | Information through conflict, not conversation |
 | Invincible protagonist | Make them earn every win; show the cost |
-| Villains who monologue | Competent antagonists act, don't explain |
+| Antagonists who monologue | Competent antagonists act, don't explain |
 | Technology as magic | Tradecraft has limitations; use them |
 | Coincidence saves the day | Protagonist's choices should matter |
 | All tension, no humanity | Character moments between set pieces |

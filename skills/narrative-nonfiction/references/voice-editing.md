@@ -31,18 +31,18 @@ Grave |---|---|---|---| Playful
 **Directness**
 Hedged |---|---|---|---| Blunt
 
-### Example Voice Profile (Boundaries Book)
+### Example Voice Profile (Career Development Book)
 
-- Formality: 2/5 (conversational, but crafted)
-- Warmth: 4/5 (warm, validating, on your side)
-- Authority: 3/5 (been there, figured it out, sharing with peer)
-- Seriousness: 2.5/5 (serious topic, playful treatment)
-- Directness: 4/5 (direct, permission-giving, "here's the truth")
+- Formality: 2.5/5 (professional but approachable)
+- Warmth: 3/5 (supportive, realistic, no false promises)
+- Authority: 4/5 (experience-based expertise, earned credibility)
+- Seriousness: 3.5/5 (serious goals, pragmatic tone)
+- Directness: 4/5 (straight talk, clear frameworks, actionable)
 
 **In practice, this sounds like:**
-- "Let's be honest—you've been exhausted for years."
-- "Here's the part no one tells you: it's okay to want things."
-- "Congratulations on your first boundary. You said no."
+- "Let's be honest—that promotion isn't going to happen by accident."
+- "Here's what actually works: visibility plus value delivery."
+- "You just navigated a difficult conversation. That's leadership."
 
 ## Voice Elements
 
@@ -134,22 +134,22 @@ The second is accurate but sounds like a different book.
 ### Sentence-Level Fixes
 
 **Too formal:**
-> "It is important to recognize that boundaries are essential for healthy relationships."
+> "It is important to recognize that focused work sessions are essential for meaningful productivity."
 
 **Repaired:**
-> "Here's the truth: boundaries aren't optional. They're the foundation."
+> "Here's the truth: you can't multitask your way to deep work. Pick one thing."
 
 **Too hedged:**
-> "You might find that saying no can sometimes lead to better outcomes."
+> "You might find that limiting distractions can sometimes lead to better focus."
 
 **Repaired:**
-> "Say no. Watch what happens. (Spoiler: people adjust.)"
+> "Turn off notifications. Try it for two hours. (Spoiler: the world keeps spinning.)"
 
 **Too distant:**
-> "One should consider the long-term implications of chronic people-pleasing."
+> "One should consider the long-term implications of chronic reactive work habits."
 
 **Repaired:**
-> "You've been doing this for years. You know where it leads."
+> "You've been in reactive mode for years. You know where it leads."
 
 ### Paragraph-Level Fixes
 
@@ -181,7 +181,7 @@ If a whole chapter feels off:
 
 - When giving core advice
 - When combating reader's self-deception
-- When the "villain" frame is central
+- When the central metaphor is key to understanding
 - When permission needs to be unambiguous
 
 ### When to Dial Back Humor
