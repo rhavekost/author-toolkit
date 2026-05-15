@@ -2,6 +2,18 @@
 
 Structuring twist endings and reframes in nonfiction books.
 
+## Scope of This Document
+
+This reference covers **one specific reveal pattern: the permission-reframe**, in which the book trains the reader to accept a provocative or "negative" identity frame, then late in the arc reveals that the behaviors were always healthy and the frame was scaffolding. It is the dominant pattern in transformation-oriented self-help (e.g., books that reframe "selfishness" as legitimate self-regard).
+
+Other reveal patterns exist and would benefit from their own reference documents in future iterations:
+
+- **Empirical reveal** — Freakonomics-style books where the twist is "the data says the opposite of what you assumed." Setup uses received wisdom; payoff is the counterintuitive finding.
+- **Structural reveal** — Bastiat-frame political theory and similar arguments where the twist is "the system you think you understand is actually structured around an invisible mechanism." Setup builds the visible surface; payoff exposes the hidden structure.
+- **Conceptual reveal** — Antifragile-style reframings where the twist is "the category you've been using to think about this is the wrong category." Setup uses the old category; payoff installs the new one.
+
+If you are working on a book whose reveal pattern is not the permission-reframe, treat the engineering steps below as analogically useful but not directly prescriptive. The phase structure (establish frame → build dissonance → peak → reveal → integration) generalizes; the specific techniques and emotional beats below do not.
+
 ## The Nonfiction Reveal
 
 Unlike fiction plot twists, nonfiction reveals reframe the reader's understanding:

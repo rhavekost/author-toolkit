@@ -7,6 +7,15 @@ description: "Use when writing or editing novels, short stories, or any fiction 
 
 Editorial workflow for collaborative fiction writing in three stages: Story Bible Building, Chapter Development, and Reader Testing.
 
+## Session Continuity
+
+Novel projects span weeks or months. Claude has no memory between sessions, so the Story Bible is your persistent state.
+
+- **At session start:** Read `story-bible.md` (or whatever the project calls it) before doing any other work. Skim recent files in `sessions/` for unresolved threads.
+- **At session end:** Write a brief note at `sessions/YYYY-MM-DD_topic-slug.md` summarizing what was done, decisions made, and the stopping point. Two to five sentences is enough.
+- **When foundations shift:** Update the Story Bible immediately when premise, character bios, world rules, or major plot turns change. The Story Bible is the source of truth, not a one-time template.
+- **Surface unresolved questions:** At the start of new work, list questions left open from prior sessions and ask the user which to address before continuing.
+
 ## When to Use
 
 This skill is for:
@@ -28,7 +37,7 @@ For narrative nonfiction (memoir, self-help with story elements), use the `narra
 
 ## Editorial Personas
 
-Switch between these roles during Chapter Development by requesting a specific lens:
+Personas are primarily for Stage 2 (Chapter Development) and Stage 3 (Reader Testing); Stage 1 is freeform Story Bible building that does not require persona invocation. Switch between these roles by requesting a specific lens:
 
 | Role | Invocation | Focus |
 |------|------------|-------|
@@ -37,6 +46,8 @@ Switch between these roles during Chapter Development by requesting a specific l
 | **Character Consultant** | "As character consultant..." | Voice consistency, motivation, arc, relationships |
 | **Continuity Tracker** | "As continuity tracker..." | Timeline, world facts, internal consistency |
 | **Brainstorm Partner** | "Brainstorm mode..." | "What if" exploration, problem-solving, unsticking |
+
+Load only the reference file matching the currently invoked persona. Do not preload all references at session start—it wastes context budget. If switching personas mid-session, load the new reference file and treat the prior one as out-of-scope unless the work explicitly bridges both.
 
 See `references/` for detailed guidance on each role.
 

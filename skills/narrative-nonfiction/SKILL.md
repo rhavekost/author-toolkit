@@ -7,7 +7,16 @@ description: "Use when writing self-help books, memoirs, or prescriptive guides 
 
 Workflow for self-help and prescriptive nonfiction using narrative elements and metaphors to guide reader transformation.
 
-**Core concept:** Prescriptive advice + storytelling. Reader is protagonist on a journey. Book provides map and tools.
+**Core concept:** Reader is protagonist; book is map and method; transformation is the contract.
+
+## Session Continuity
+
+Book projects span weeks or months. Claude has no memory between sessions, so the project's blueprint document is your persistent state.
+
+- **At session start:** Read `book-blueprint.md` (or whatever the project calls its blueprint) before doing any other work. Skim recent files in `sessions/` for unresolved threads.
+- **At session end:** Write a brief note at `sessions/YYYY-MM-DD_topic-slug.md` summarizing what was done, decisions made, and the stopping point. Two to five sentences is enough.
+- **When foundations shift:** Update the blueprint immediately when promise, central metaphor, reader-arc stages, or reveal structure change. The blueprint is the source of truth, not a one-time template.
+- **Surface unresolved questions:** At the start of new work, list questions left open from prior sessions and ask the user which to address before continuing.
 
 ## When to Use
 
@@ -17,6 +26,7 @@ This skill is for:
 - ✅ Books using extended metaphors or narrative framing
 - ✅ Practical guides that include storytelling elements
 - ✅ Reader journey design (before state → after state)
+- ✅ Structural-argument nonfiction (books that reframe how readers understand a system or category)
 
 ## When NOT to Use
 
@@ -66,7 +76,7 @@ Use `assets/book-blueprint-template.md` if needed.
 
 ### Writing Modes
 
-Switch between these as needed:
+Modes are primarily for Stage 2 (Chapter Development) and Stage 3 (Arc Integrity Check); Stage 1 is freeform foundation-building that does not require mode invocation. Switch between these as needed:
 
 | Mode | Invocation | Focus |
 |------|------------|-------|
@@ -75,6 +85,8 @@ Switch between these as needed:
 | **Exercise Designer** | "Design exercises for..." | Practical application, appropriate difficulty |
 | **Metaphor Consultant** | "Check metaphor consistency..." | Extended metaphor alignment, avoiding confusion |
 | **Reveal Engineer** | "Set up the reveal..." | Foreshadowing, misdirection, payoff |
+
+Load only the reference file matching the currently invoked mode. Do not preload all references at session start—it wastes context budget. If switching modes mid-session, load the new reference file and treat the prior one as out-of-scope unless the work explicitly bridges both.
 
 See `references/` for detailed guidance on each mode.
 
