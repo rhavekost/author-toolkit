@@ -25,7 +25,11 @@ For self-help, prescriptive nonfiction, and structural-argument books with story
 - **Transformation Arc** - Reader journey design
 - **Metaphor Consistency** - Extended metaphor management
 - **Exercise Design** - Practical application sections
-- **Reveal Engineering** - Twist/reframe setup and payoff (permission-reframe pattern)
+- **Reveal Engineering** - Twist/reframe setup and payoff across four patterns:
+  - *Permission-reframe* (training-wheels frame released as validation)
+  - *Empirical* (counterintuitive data overturns received wisdom)
+  - *Structural* (visible surface reframed by hidden mechanism)
+  - *Conceptual* (new category installed; old framework dissolved)
 - **Voice Editing** - Tone and persona consistency
 
 ### Prose Mechanics
