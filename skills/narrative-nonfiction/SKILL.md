@@ -88,6 +88,8 @@ Modes are primarily for Stage 2 (Chapter Development) and Stage 3 (Arc Integrity
 
 Load only the reference file matching the currently invoked mode. Do not preload all references at session start—it wastes context budget. If switching modes mid-session, load the new reference file and treat the prior one as out-of-scope unless the work explicitly bridges both.
 
+For Reveal Engineer specifically: `reveal-engineering.md` is an index across four reveal patterns (permission-reframe, empirical, structural, conceptual). Read its "Choosing a Reveal Pattern" section first, identify which pattern fits the project, then load *only* that pattern's reference file. Don't preload all four.
+
 See `references/` for detailed guidance on each mode.
 
 ### Creation Workflow
@@ -177,6 +179,25 @@ If you answered "no" to any checkpoint, return to that stage before proceeding.
 
 ---
 
+## Stopping Points
+
+Each mode and stage has a defined end. Stop at it. Do not auto-advance to the next mode, do not silently expand scope, do not start rewriting when you were asked to diagnose.
+
+| Tool / Stage | Stop when... | Then |
+|--------------|--------------|------|
+| **Foundation Building (Stage 1)** | The Foundation Building Self-Check passes | Hand back to author. Do not auto-advance into Chapter Development. |
+| **Voice Editor** | One pass on the requested scope is complete and findings are reported | Wait for author to apply changes. Do not re-check other chapters unless asked. |
+| **Content Editor** | Diagnosis of clarity/completeness/accuracy issues is delivered | Stop. Do not write the fix—that's the author's call. |
+| **Exercise Designer** | 2–3 exercise options delivered with rationale for each | Do not pick for the author. Do not embed without confirmation. |
+| **Metaphor Consultant** | Consistency report produced (alignments, breaks, suggestions) | Do not rewrite metaphor moments unilaterally. Report and stop. |
+| **Reveal Engineer** | Seeding plan or planting recommendations for the current chapter delivered | Do not draft the chapter from the recommendations. They are inputs, not output. |
+| **Arc Integrity Check (Stage 3)** | Full-arc report (promise delivery, pacing, metaphor, reveal, exercise progression) delivered | Hand back. Let author decide which findings to act on and in what order. |
+| **Session** | Stopping point reached or context window is filling | Update the blueprint if foundations shifted; write a `sessions/` note; stop. |
+
+If the author explicitly asks you to continue past a stopping point, fine—but name what's about to happen ("I'll now move from diagnosis to rewriting Chapter 4's hook") so the scope shift is visible.
+
+---
+
 ## Common Mistakes
 
 | Mistake | Why It Happens | Fix |
@@ -257,7 +278,10 @@ Choose one morning this week (not your busiest day—start manageable).
 - `references/transformation-arc.md` - Reader journey structure
 - `references/metaphor-consistency.md` - Extended metaphor management
 - `references/exercise-design.md` - Practical application design
-- `references/reveal-engineering.md` - Twist/reframe setup and payoff
+- `references/reveal-engineering.md` - Reveal-pattern index; permission-reframe pattern in detail
+- `references/empirical-reveal.md` - Counterintuitive-data reveal pattern (Freakonomics-style)
+- `references/structural-reveal.md` - Invisible-mechanism reveal pattern (Bastiat-style)
+- `references/conceptual-reveal.md` - Category-shift reveal pattern (Antifragile-style)
 - `references/voice-editing.md` - Tone and persona consistency
 - `assets/book-blueprint-template.md` - Book planning document
 - `assets/chapter-template.md` - Chapter structure template

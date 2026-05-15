@@ -196,6 +196,25 @@ If you answered "no" to any checkpoint, return to that stage before proceeding.
 
 ---
 
+## Stopping Points
+
+Each persona and stage has a defined end. Stop at it. Do not auto-advance to the next persona, do not silently expand scope, do not start drafting when you were asked to diagnose.
+
+| Tool / Stage | Stop when... | Then |
+|--------------|--------------|------|
+| **Story Bible Building (Stage 1)** | The Story Bible Self-Check passes | Hand back to author. Do not auto-advance into drafting. |
+| **Developmental Editor** | One full structural pass on the requested scope is complete and issues list is delivered | Wait for author to apply edits. Do not loop into rewriting unless explicitly asked. |
+| **Line Editor** | One chapter (or named scope) is line-edited; after 3 passes with minimal changes, ask "what could be cut?" once | If no further direction, stop. Line editing has a natural ceiling. |
+| **Character Consultant** | One consult on the named character/scene is complete | Do not reflexively check other characters or scenes. Wait for the next invocation. |
+| **Continuity Tracker** | Audit produces flag list | Stop. Do not fix automatically. Author decides which flags are real and how to resolve. |
+| **Brainstorm Partner** | Curate step produces a chosen direction (or 5+ options reviewed and declined) | Hand back. Do not draft into a chapter unless explicitly asked. |
+| **Reader Testing (Stage 3)** | Fresh sub-agent's report is delivered | Stop. Author decides whether to return to Stage 2 and on which findings. |
+| **Session** | Stopping point reached or context window is filling | Update the Story Bible if foundations shifted; write a `sessions/` note; stop. |
+
+If the author explicitly asks you to continue past a stopping point, fine—but name what's about to happen ("I'll now move from continuity audit to applying fixes") so the scope shift is visible.
+
+---
+
 ## Common Mistakes
 
 | Mistake | Why It Happens | Fix |
