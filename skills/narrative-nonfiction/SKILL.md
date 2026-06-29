@@ -7,7 +7,16 @@ description: "Use when writing self-help books, memoirs, or prescriptive guides 
 
 Workflow for self-help and prescriptive nonfiction using narrative elements and metaphors to guide reader transformation.
 
-**Core concept:** Prescriptive advice + storytelling. Reader is protagonist on a journey. Book provides map and tools.
+**Core concept:** Reader is protagonist; book is map and method; transformation is the contract.
+
+## Session Continuity
+
+Book projects span weeks or months. Claude has no memory between sessions, so the project's blueprint document is your persistent state.
+
+- **At session start:** Read `book-blueprint.md` (or whatever the project calls its blueprint) before doing any other work. Skim recent files in `sessions/` for unresolved threads.
+- **At session end:** Write a brief note at `sessions/YYYY-MM-DD_topic-slug.md` summarizing what was done, decisions made, and the stopping point. Two to five sentences is enough.
+- **When foundations shift:** Update the blueprint immediately when promise, central metaphor, reader-arc stages, or reveal structure change. The blueprint is the source of truth, not a one-time template.
+- **Surface unresolved questions:** At the start of new work, list questions left open from prior sessions and ask the user which to address before continuing.
 
 ## When to Use
 
@@ -17,6 +26,7 @@ This skill is for:
 - ✅ Books using extended metaphors or narrative framing
 - ✅ Practical guides that include storytelling elements
 - ✅ Reader journey design (before state → after state)
+- ✅ Structural-argument nonfiction (books that reframe how readers understand a system or category)
 
 ## When NOT to Use
 
@@ -66,7 +76,7 @@ Use `assets/book-blueprint-template.md` if needed.
 
 ### Writing Modes
 
-Switch between these as needed:
+Modes are primarily for Stage 2 (Chapter Development) and Stage 3 (Arc Integrity Check); Stage 1 is freeform foundation-building that does not require mode invocation. Switch between these as needed:
 
 | Mode | Invocation | Focus |
 |------|------------|-------|
@@ -75,6 +85,10 @@ Switch between these as needed:
 | **Exercise Designer** | "Design exercises for..." | Practical application, appropriate difficulty |
 | **Metaphor Consultant** | "Check metaphor consistency..." | Extended metaphor alignment, avoiding confusion |
 | **Reveal Engineer** | "Set up the reveal..." | Foreshadowing, misdirection, payoff |
+
+Load only the reference file matching the currently invoked mode. Do not preload all references at session start—it wastes context budget. If switching modes mid-session, load the new reference file and treat the prior one as out-of-scope unless the work explicitly bridges both.
+
+For Reveal Engineer specifically: `reveal-engineering.md` is an index across four reveal patterns (permission-reframe, empirical, structural, conceptual). Read its "Choosing a Reveal Pattern" section first, identify which pattern fits the project, then load *only* that pattern's reference file. Don't preload all four.
 
 See `references/` for detailed guidance on each mode.
 
@@ -165,6 +179,25 @@ If you answered "no" to any checkpoint, return to that stage before proceeding.
 
 ---
 
+## Stopping Points
+
+Each mode and stage has a defined end. Stop at it. Do not auto-advance to the next mode, do not silently expand scope, do not start rewriting when you were asked to diagnose.
+
+| Tool / Stage | Stop when... | Then |
+|--------------|--------------|------|
+| **Foundation Building (Stage 1)** | The Foundation Building Self-Check passes | Hand back to author. Do not auto-advance into Chapter Development. |
+| **Voice Editor** | One pass on the requested scope is complete and findings are reported | Wait for author to apply changes. Do not re-check other chapters unless asked. |
+| **Content Editor** | Diagnosis of clarity/completeness/accuracy issues is delivered | Stop. Do not write the fix—that's the author's call. |
+| **Exercise Designer** | 2–3 exercise options delivered with rationale for each | Do not pick for the author. Do not embed without confirmation. |
+| **Metaphor Consultant** | Consistency report produced (alignments, breaks, suggestions) | Do not rewrite metaphor moments unilaterally. Report and stop. |
+| **Reveal Engineer** | Seeding plan or planting recommendations for the current chapter delivered | Do not draft the chapter from the recommendations. They are inputs, not output. |
+| **Arc Integrity Check (Stage 3)** | Full-arc report (promise delivery, pacing, metaphor, reveal, exercise progression) delivered | Hand back. Let author decide which findings to act on and in what order. |
+| **Session** | Stopping point reached or context window is filling | Update the blueprint if foundations shifted; write a `sessions/` note; stop. |
+
+If the author explicitly asks you to continue past a stopping point, fine—but name what's about to happen ("I'll now move from diagnosis to rewriting Chapter 4's hook") so the scope shift is visible.
+
+---
+
 ## Common Mistakes
 
 | Mistake | Why It Happens | Fix |
@@ -245,7 +278,10 @@ Choose one morning this week (not your busiest day—start manageable).
 - `references/transformation-arc.md` - Reader journey structure
 - `references/metaphor-consistency.md` - Extended metaphor management
 - `references/exercise-design.md` - Practical application design
-- `references/reveal-engineering.md` - Twist/reframe setup and payoff
+- `references/reveal-engineering.md` - Reveal-pattern index; permission-reframe pattern in detail
+- `references/empirical-reveal.md` - Counterintuitive-data reveal pattern (Freakonomics-style)
+- `references/structural-reveal.md` - Invisible-mechanism reveal pattern (Bastiat-style)
+- `references/conceptual-reveal.md` - Category-shift reveal pattern (Antifragile-style)
 - `references/voice-editing.md` - Tone and persona consistency
 - `assets/book-blueprint-template.md` - Book planning document
 - `assets/chapter-template.md` - Chapter structure template

@@ -7,6 +7,15 @@ description: "Use when writing or editing novels, short stories, or any fiction 
 
 Editorial workflow for collaborative fiction writing in three stages: Story Bible Building, Chapter Development, and Reader Testing.
 
+## Session Continuity
+
+Novel projects span weeks or months. Claude has no memory between sessions, so the Story Bible is your persistent state.
+
+- **At session start:** Read `story-bible.md` (or whatever the project calls it) before doing any other work. Skim recent files in `sessions/` for unresolved threads.
+- **At session end:** Write a brief note at `sessions/YYYY-MM-DD_topic-slug.md` summarizing what was done, decisions made, and the stopping point. Two to five sentences is enough.
+- **When foundations shift:** Update the Story Bible immediately when premise, character bios, world rules, or major plot turns change. The Story Bible is the source of truth, not a one-time template.
+- **Surface unresolved questions:** At the start of new work, list questions left open from prior sessions and ask the user which to address before continuing.
+
 ## When to Use
 
 This skill is for:
@@ -28,7 +37,7 @@ For narrative nonfiction (memoir, self-help with story elements), use the `narra
 
 ## Editorial Personas
 
-Switch between these roles during Chapter Development by requesting a specific lens:
+Personas are primarily for Stage 2 (Chapter Development) and Stage 3 (Reader Testing); Stage 1 is freeform Story Bible building that does not require persona invocation. Switch between these roles by requesting a specific lens:
 
 | Role | Invocation | Focus |
 |------|------------|-------|
@@ -37,6 +46,8 @@ Switch between these roles during Chapter Development by requesting a specific l
 | **Character Consultant** | "As character consultant..." | Voice consistency, motivation, arc, relationships |
 | **Continuity Tracker** | "As continuity tracker..." | Timeline, world facts, internal consistency |
 | **Brainstorm Partner** | "Brainstorm mode..." | "What if" exploration, problem-solving, unsticking |
+
+Load only the reference file matching the currently invoked persona. Do not preload all references at session start—it wastes context budget. If switching personas mid-session, load the new reference file and treat the prior one as out-of-scope unless the work explicitly bridges both.
 
 See `references/` for detailed guidance on each role.
 
@@ -182,6 +193,25 @@ Use these checkpoints to verify you're following the workflow correctly.
 - [ ] Were any gaps or confusion points identified and addressed?
 
 If you answered "no" to any checkpoint, return to that stage before proceeding.
+
+---
+
+## Stopping Points
+
+Each persona and stage has a defined end. Stop at it. Do not auto-advance to the next persona, do not silently expand scope, do not start drafting when you were asked to diagnose.
+
+| Tool / Stage | Stop when... | Then |
+|--------------|--------------|------|
+| **Story Bible Building (Stage 1)** | The Story Bible Self-Check passes | Hand back to author. Do not auto-advance into drafting. |
+| **Developmental Editor** | One full structural pass on the requested scope is complete and issues list is delivered | Wait for author to apply edits. Do not loop into rewriting unless explicitly asked. |
+| **Line Editor** | One chapter (or named scope) is line-edited; after 3 passes with minimal changes, ask "what could be cut?" once | If no further direction, stop. Line editing has a natural ceiling. |
+| **Character Consultant** | One consult on the named character/scene is complete | Do not reflexively check other characters or scenes. Wait for the next invocation. |
+| **Continuity Tracker** | Audit produces flag list | Stop. Do not fix automatically. Author decides which flags are real and how to resolve. |
+| **Brainstorm Partner** | Curate step produces a chosen direction (or 5+ options reviewed and declined) | Hand back. Do not draft into a chapter unless explicitly asked. |
+| **Reader Testing (Stage 3)** | Fresh sub-agent's report is delivered | Stop. Author decides whether to return to Stage 2 and on which findings. |
+| **Session** | Stopping point reached or context window is filling | Update the Story Bible if foundations shifted; write a `sessions/` note; stop. |
+
+If the author explicitly asks you to continue past a stopping point, fine—but name what's about to happen ("I'll now move from continuity audit to applying fixes") so the scope shift is visible.
 
 ---
 

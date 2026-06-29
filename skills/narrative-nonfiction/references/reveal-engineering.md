@@ -1,6 +1,27 @@
 # Reveal Engineering Reference
 
-Structuring twist endings and reframes in nonfiction books.
+Structuring twist endings and reframes in nonfiction books. This file is the **index** for the four reveal patterns the toolkit covers, and contains the detailed engineering guide for the **permission-reframe pattern**.
+
+## Choosing a Reveal Pattern
+
+Nonfiction reveals come in four distinct shapes. Identify which one your book uses **before** doing reveal-engineering work, because the phase structure, seeding cadence, and failure modes differ between them. Load the relevant sibling reference file:
+
+| Pattern | The Twist Is... | Archetype | Reference |
+|---------|----------------|-----------|-----------|
+| **Permission-reframe** | "The provocative frame was scaffolding; you were always healthy." | Self-help books that train an identity, then validate it | `reveal-engineering.md` (this file) |
+| **Empirical** | "The data shows the opposite of what you assumed." | *Freakonomics*, *Outliers*, *Thinking Fast and Slow* | `empirical-reveal.md` |
+| **Structural** | "The system you see is governed by mechanisms you don't see." | Bastiat's broken-window essay, *The Power Broker* | `structural-reveal.md` |
+| **Conceptual** | "The category you've been using to think about this is the wrong category." | *Antifragile*, *The Black Swan* | `conceptual-reveal.md` |
+
+**Mixed patterns are common.** *Antifragile* is conceptual-primary but uses empirical reveals to support it. *Freakonomics* is empirical-primary but occasionally pivots to structural. Pick the dominant pattern; treat secondary patterns as supporting moves rather than competing engines.
+
+If the book's reveal doesn't fit any of these, you may have invented a new pattern (rare) or you may not have a reveal at all (more common). Pressure-test by asking: what does the reader believe at the start that they no longer believe at the end? If you can't answer cleanly, the reveal needs more design work before this reference is useful.
+
+---
+
+## Pattern: Permission-Reframe
+
+The rest of this document covers the **permission-reframe pattern**, in which the book trains the reader to accept a provocative or "negative" identity frame, then late in the arc reveals that the behaviors were always healthy and the frame was scaffolding. It is the dominant pattern in transformation-oriented self-help (e.g., books that reframe "selfishness" as legitimate self-regard).
 
 ## The Nonfiction Reveal
 
