@@ -24,6 +24,21 @@ For self-help and prescriptive nonfiction with storytelling elements:
 - **Reveal Engineering** - Twist/reframe setup and payoff
 - **Voice Editing** - Tone and persona consistency
 
+### Avoid AI Writing
+Audits and rewrites text to remove AI-ism patterns that make prose sound
+machine-generated. Supports two modes:
+- **Detect mode** — Flag AI-isms only; no rewriting. Use when auditing
+  published content, someone else's writing, or when you want to decide
+  yourself what to fix.
+- **Rewrite mode** (default) — Flag AI-isms and rewrite the text to fix them.
+
+Recommended workflow: run `avoid-ai-writing` after the line-edit pass in
+either `fiction-workshop` or `narrative-nonfiction` to catch any residual
+AI patterns before final polish.
+
+Vendored from [conorbronsdon/avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing)
+(MIT). See [ATTRIBUTION.md](ATTRIBUTION.md).
+
 ## Installation
 
 ### Direct from GitHub
@@ -48,6 +63,7 @@ Invoke skills directly:
 ```bash
 /author-toolkit:fiction-workshop
 /author-toolkit:narrative-nonfiction
+/author-toolkit:avoid-ai-writing
 ```
 
 Once activated, work with the editorial personas:
@@ -62,6 +78,10 @@ Once activated, work with the editorial personas:
 "Help me design the transformation arc for my self-help book"
 "Check metaphor consistency in chapters 4-8"
 "Engineer the reveal for chapter 16"
+
+# Avoid AI Writing
+"Audit this chapter for AI-isms" (detect mode)
+"Rewrite this chapter to remove AI patterns" (rewrite mode)
 ```
 
 ## Quick Reference
@@ -78,7 +98,22 @@ Once activated, work with the editorial personas:
 | Reader journey | `/author-toolkit:narrative-nonfiction` | "Design the transformation arc" |
 | Metaphor consistency | `/author-toolkit:narrative-nonfiction` | "Check metaphor consistency in chapters 4-8" |
 | Exercise design | `/author-toolkit:narrative-nonfiction` | "Design exercises for [concept]" |
+| Audit chapter for AI-isms | `/author-toolkit:avoid-ai-writing` | "Detect mode — flag AI patterns in this chapter" |
+| Clean AI-isms from chapter | `/author-toolkit:avoid-ai-writing` | "Rewrite mode — remove AI patterns from this chapter" |
+
+## Attribution
+
+This plugin vendors the `avoid-ai-writing` skill by
+[Conor Bronsdon (@ConorBronsdon)](https://github.com/conorbronsdon),
+sourced from
+[conorbronsdon/avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing)
+and licensed under the MIT License. The upstream `LICENSE` and `README` are
+preserved unmodified inside
+[`skills/avoid-ai-writing/`](skills/avoid-ai-writing/). Full attribution and
+vendored commit SHA are recorded in [ATTRIBUTION.md](ATTRIBUTION.md).
 
 ## License
 
-MIT
+MIT. See [LICENSE](LICENSE). Vendored third-party skills retain their
+original licenses inside their skill directories — see
+[ATTRIBUTION.md](ATTRIBUTION.md) for details.
