@@ -1,7 +1,7 @@
 {
   "name": "author-toolkit",
   "description": "Writing skills for fiction and narrative nonfiction authors, including an AI-writing audit/rewrite skill",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": {
     "name": "rhavekost",
     "email": "rob@kostlabs.com"
@@ -9,5 +9,5 @@
   "homepage": "https://github.com/rhavekost/author-toolkit",
   "repository": "https://github.com/rhavekost/author-toolkit",
   "license": "MIT",
-  "keywords": ["writing", "fiction", "nonfiction", "editing", "author", "skills", "ai-writing", "avoid-ai-writing"]
+  "keywords": ["writing", "fiction", "nonfiction", "editing", "author", "skills", "ai-writing", "avoid-ai-writing", "character-archetypes"]
 }
