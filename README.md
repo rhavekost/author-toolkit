@@ -20,6 +20,17 @@ Includes genre-specific guides for:
 - Spy thrillers (tradecraft, tension, moral complexity)
 - Hard sci-fi (technical accuracy, worldbuilding, geopolitics)
 
+### Character Archetypes
+Fiction-only companion to Fiction Workshop's character work. Two taxonomies plus four analysis modes for using archetypes diagnostically:
+- **Narrative-Role Archetypes** - Vogler/Campbell's 8 character functions (Hero, Mentor, Threshold Guardian, Herald, Shapeshifter, Shadow, Trickster, Ally)
+- **Personality Archetypes** - Jungian 12 (Mark & Pearson model): Innocent, Everyman, Hero, Caregiver, Explorer, Rebel, Lover, Creator, Jester, Sage, Magician, Ruler
+- **Analyzer** - Diagnose or recommend an archetype pairing
+- **Audit** - Flag stock/cliché use of an established archetype
+- **Conformance** - Check for unexplained archetype drift across chapters
+- **Ensemble** - Check cast-level archetype balance and gaps
+
+Archetype is a starting scaffold, not a finished character — pair with Fiction Workshop's Want/Need/Wound/Lie framework to individualize.
+
 ### Narrative Nonfiction
 For self-help, prescriptive nonfiction, and structural-argument books with storytelling elements:
 - **Transformation Arc** - Reader journey design
@@ -79,6 +90,7 @@ Invoke skills directly:
 
 ```bash
 /author-toolkit:fiction-workshop
+/author-toolkit:character-archetypes
 /author-toolkit:narrative-nonfiction
 /author-toolkit:prose-mechanics
 /author-toolkit:avoid-ai-writing
@@ -91,6 +103,12 @@ Once activated, work with the editorial personas:
 "As developmental editor, analyze Chapter 3"
 "As line editor, polish this dialogue"
 "Brainstorm mode—I need to solve [plot problem]"
+
+# Character archetypes
+"What archetype is this character?"
+"Audit this scene for archetype cliché"
+"Check archetype conformance for chapters 4-8"
+"Run an ensemble balance check on the cast"
 
 # Nonfiction
 "Help me design the transformation arc for my self-help book"
@@ -117,6 +135,10 @@ Once activated, work with the editorial personas:
 | Character work | `/author-toolkit:fiction-workshop` | "As character consultant, is this in character?" |
 | Continuity check | `/author-toolkit:fiction-workshop` | "As continuity tracker, check for inconsistencies" |
 | Get unstuck | `/author-toolkit:fiction-workshop` | "Brainstorm mode—I need to [solve problem]" |
+| Archetype identification | `/author-toolkit:character-archetypes` | "What archetype is this character?" |
+| Archetype cliché check | `/author-toolkit:character-archetypes` | "Audit [scene] for archetype cliché" |
+| Archetype drift check | `/author-toolkit:character-archetypes` | "Check archetype conformance for chapters [X-Y]" |
+| Cast balance check | `/author-toolkit:character-archetypes` | "Run an ensemble balance check on the cast" |
 | Nonfiction writing | `/author-toolkit:narrative-nonfiction` | "Let's build a blueprint for [book]" |
 | Reader journey | `/author-toolkit:narrative-nonfiction` | "Design the transformation arc" |
 | Metaphor consistency | `/author-toolkit:narrative-nonfiction` | "Check metaphor consistency in chapters 4-8" |
