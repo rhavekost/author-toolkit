@@ -25,6 +25,15 @@ Every significant character needs:
 **Negative arc**: Character clings to lie, fails to grow, often tragic outcome
 **Flat arc**: Character already knows truth, changes the world around them
 
+### Complementary Lens: Archetypes
+
+Want/Need/Wound/Lie describes a character's individual psychology. For the
+patterns a character shares with a role or personality type — Hero, Mentor,
+Sage, Trickster, and so on — see the `character-archetypes` skill. Run its
+Analyzer mode to name a narrative-role and personality-type pairing, then
+keep using the Core Four here to individualize it so the archetype doesn't
+read as a stock type.
+
 ## Voice Consistency
 
 ### Building a Voice Profile

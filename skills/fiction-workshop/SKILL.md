@@ -266,7 +266,7 @@ If the author explicitly asks you to continue past a stopping point, fine—but 
 
 - `references/developmental-editing.md` - Plot, structure, pacing analysis
 - `references/line-editing.md` - Prose-level refinement
-- `references/character-work.md` - Voice, motivation, arc tracking
+- `references/character-work.md` - Voice, motivation, arc tracking (see also the `character-archetypes` skill for role/personality archetype analysis)
 - `references/continuity-tracking.md` - Timeline and fact consistency
 - `references/brainstorming.md` - Idea generation techniques
 - `references/thriller-craft.md` - Genre-specific guidance for suspense
