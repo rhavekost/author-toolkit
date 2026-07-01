@@ -1,6 +1,6 @@
 # Archetype Profile Template
 
-A small block designed to paste directly into an existing Story Bible character entry, immediately after "Voice notes:" (see the example entry in `fiction-workshop/SKILL.md`). Not a replacement for the Want/Need/Wound/Lie fields already there — this adds the archetype layer on top.
+A small block designed to paste directly into an existing Story Bible character entry, immediately after the Voice Notes field (see the example entry in `fiction-workshop/SKILL.md`). Not a replacement for the Want/Need/Wound/Lie fields already there — this adds the archetype layer on top.
 
 ```
 Archetype profile:

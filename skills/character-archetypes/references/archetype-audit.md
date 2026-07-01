@@ -16,7 +16,7 @@ When invoked to check whether an established archetype is being used well, or as
 ## Workflow
 
 1. **Confirm the target archetype pairing** for the character being audited (ask if not already known).
-2. **Scan the requested scope** (scene, chapter, or sketch) for moments where the character's actions, dialogue, or reactions match the archetype entry's baseline pattern (narrative-role "Common signals" or personality "Strategy"/"Voice tendencies") **without** any individualizing detail layered on top.
+2. **Scan the requested scope** (scene, chapter, or sketch) for moments where the character's actions, dialogue, or reactions match the archetype entry's baseline pattern (narrative-role "Common signals" or personality "Strategy"/"Voice/dialogue tendencies") **without** any individualizing detail layered on top.
 3. **For each flagged moment**, note: the cliché beat (quote or describe it), which archetype pattern it's a stock instance of, and a suggested individualizing angle (drawn from the character's Want/Need/Wound/Lie, if known, or a prompt to establish one).
 4. **Do not rewrite.** Deliver the flagged list only.
 

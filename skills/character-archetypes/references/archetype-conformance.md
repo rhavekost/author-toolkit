@@ -13,7 +13,7 @@ Whether the character's actions across the requested range stay consistent with 
 
 1. **Confirm the character's established pairing** for the requested range.
 2. **Read the requested chapter range**, tracking the character's choices and reactions scene by scene.
-3. **For each moment that departs from the established pairing's pattern**, check for justification: does the story show a pressure, a turning point, or a setup earlier in the range that explains the shift? (See each taxonomy entry's "Subversion patterns" — an explained shift into one of those is not drift.)
+3. **For each moment that departs from the established pairing's pattern**, check for justification: does the story show a pressure, a turning point, or a setup earlier in the range that explains the shift? (See the narrative-role entry's "Subversion patterns" — an explained shift into one of those is not drift.)
 4. **If justified:** do not flag — this is arc progression, not drift.
 5. **If unjustified:** flag it, anchored to the chapter/scene where it occurs.
 

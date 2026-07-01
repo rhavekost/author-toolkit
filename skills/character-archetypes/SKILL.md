@@ -68,7 +68,7 @@ Load only the reference file matching the currently invoked mode. Do not preload
 ## Integration with `fiction-workshop`
 
 - `fiction-workshop/references/character-work.md` links here as a complementary lens alongside Want/Need/Wound/Lie.
-- `assets/archetype-profile-template.md` is designed to paste directly into the Story Bible character entry format shown in `fiction-workshop/SKILL.md`, immediately after "Voice notes:".
+- `assets/archetype-profile-template.md` is designed to paste directly into the Story Bible character entry format shown in `fiction-workshop/SKILL.md`, immediately after the Voice Notes field.
 - This skill never restructures `fiction-workshop/assets/story-bible-template.md` — it only adds an optional block to individual character entries.
 
 ## Stopping Points

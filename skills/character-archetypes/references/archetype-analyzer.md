@@ -10,7 +10,7 @@ Use when the author asks "what archetype is this character?" for a character who
 2. **Score against both taxonomies independently.** Read `narrative-role-archetypes.md` and `personality-archetypes.md` and check the character's signals against each entry's "Common signals" (narrative-role) or "Voice/dialogue tendencies" and "Strategy" (personality). The two axes are independent — don't force one to imply the other.
 3. **Name the best-fit pairing with rationale**, citing which signals matched which entry.
 4. **Flag blends:** a character can straddle two archetypes within one taxonomy (e.g., a Mentor sliding into Shadow). Name both, and say which is dominant.
-5. **Flag deliberate subversions:** check the matched entry's "Subversion patterns" section — if the character's behavior matches a named subversion rather than the base pattern, say so instead of reporting a mismatch.
+5. **Flag deliberate subversions:** if the matched narrative-role entry has a "Subversion patterns" section, check whether the character's behavior matches a named subversion rather than the base pattern — if so, say so instead of reporting a mismatch.
 
 ## Recommend Workflow
 

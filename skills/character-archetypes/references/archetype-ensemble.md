@@ -14,7 +14,7 @@ Tallies narrative-role and personality distribution across the full main cast an
 
 1. **Confirm the cast list** and each member's established archetype pairing (ask for any that are missing; do not guess).
 2. **Tally narrative-role and personality distribution** across the cast.
-3. **Check for redundancy:** any pairing shared by two or more characters? If so, check whether the design spec's individualizing detail (voice, wound, specific flaw) differentiates them enough to justify the overlap, or whether they're functionally interchangeable.
+3. **Check for redundancy:** any pairing shared by two or more characters? If so, check whether individualizing detail (voice, wound, specific flaw) differentiates them enough to justify the overlap, or whether they're functionally interchangeable.
 4. **Check for structural gaps:** does the protagonist's cast include a Mentor, a Shadow, and a Threshold Guardian somewhere? A missing one isn't automatically wrong, but is worth surfacing.
 5. **Check for static relational pairs:** any two same-archetype characters in an ongoing relationship (rivals, co-leads, family) with no arc to their power dynamic across the story?
 6. **Deliver a cast balance report.** Do not invent new characters to fill gaps — that's the author's call.
