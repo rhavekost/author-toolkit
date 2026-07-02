@@ -22,7 +22,7 @@ This skill is for:
 
 This skill is NOT for:
 - ❌ Scene-level micro-structure (Goal/Conflict/Outcome, Scene/Sequel) — use `fiction-workshop`'s `references/developmental-editing.md` Scene-Level section instead.
-- ❌ Character-arc mechanics (Lie, Ghost, Wound, Thematic Truth) — use `fiction-workshop`'s `references/character-work.md` Core Four instead. This skill only notes *which* structural beat is where the Lie is tested (Third Plot Point) and resolved (Climax).
+- ❌ Character-arc mechanics (Want, Need, Wound, Lie) — use `fiction-workshop`'s `references/character-work.md` Core Four instead. This skill only notes *which* structural beat is where the Lie is tested (Third Plot Point) and resolved (Climax).
 - ❌ Narrative nonfiction structure — use `narrative-nonfiction`'s transformation-arc guidance instead; this skill's beats assume a plotted fiction conflict.
 - ❌ Prose-level pacing (sentence rhythm, word choice) — use `prose-mechanics`.
 
