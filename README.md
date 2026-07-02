@@ -31,6 +31,15 @@ Fiction-only companion to Fiction Workshop's character work. Two taxonomies plus
 
 Archetype is a starting scaffold, not a finished character — pair with Fiction Workshop's Want/Need/Wound/Lie framework to individualize.
 
+### Story Structure
+Percentage-anchored macro plot structure, drawn from K.M. Weiland's landmark-beat model and James Scott Bell's signpost catalog:
+- **Landmark Beats** - 11-beat skeleton (Hook, Inciting Event, First Plot Point, Pinch Points, Midpoint, Third Plot Point, Climax, Resolution) with percentages and diagnostics
+- **Signposts** - Bell's 14 named checkpoints (Disturbance, Mirror Moment, Doorways of No Return, Q Factor, and more), overlaid on the landmarks or placed relatively between them
+- **Map** - Place beats and signposts for a story not yet drafted
+- **Audit** - Locate where beats actually land in an existing manuscript and flag missing, mistimed, or thin ones
+
+Weiland's beats answer *where* a turning point falls; Bell's signposts answer *what psychological work* it needs to do.
+
 ### Narrative Nonfiction
 For self-help, prescriptive nonfiction, and structural-argument books with storytelling elements:
 - **Transformation Arc** - Reader journey design
@@ -91,6 +100,7 @@ Invoke skills directly:
 ```bash
 /author-toolkit:fiction-workshop
 /author-toolkit:character-archetypes
+/author-toolkit:story-structure
 /author-toolkit:narrative-nonfiction
 /author-toolkit:prose-mechanics
 /author-toolkit:avoid-ai-writing
@@ -109,6 +119,11 @@ Once activated, work with the editorial personas:
 "Audit this scene for archetype cliché"
 "Check archetype conformance for chapters 4-8"
 "Run an ensemble balance check on the cast"
+
+# Story structure
+"Map the structure for this story"
+"Audit this manuscript's structure"
+"Check this manuscript for a Faux Climax"
 
 # Nonfiction
 "Help me design the transformation arc for my self-help book"
@@ -139,6 +154,8 @@ Once activated, work with the editorial personas:
 | Archetype cliché check | `/author-toolkit:character-archetypes` | "Audit [scene] for archetype cliché" |
 | Archetype drift check | `/author-toolkit:character-archetypes` | "Check archetype conformance for chapters [X-Y]" |
 | Cast balance check | `/author-toolkit:character-archetypes` | "Run an ensemble balance check on the cast" |
+| Plan new story structure | `/author-toolkit:story-structure` | "Map the structure for this story" |
+| Audit existing structure | `/author-toolkit:story-structure` | "Audit this manuscript's structure" |
 | Nonfiction writing | `/author-toolkit:narrative-nonfiction` | "Let's build a blueprint for [book]" |
 | Reader journey | `/author-toolkit:narrative-nonfiction` | "Design the transformation arc" |
 | Metaphor consistency | `/author-toolkit:narrative-nonfiction` | "Check metaphor consistency in chapters 4-8" |
