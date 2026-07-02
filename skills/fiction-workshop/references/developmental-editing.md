@@ -52,6 +52,10 @@ Scenes that lack clear goal-conflict-outcome feel "soft" or "meandering."
 - Final confrontation
 - Resolution that addresses the thematic question
 
+### Deeper Structure Work
+
+This is a lightweight quarter-based read. For landmark-beat percentages (Inciting Event, Pinch Points, Third Plot Point, and the rest), Bell's signpost catalog (Mirror Moment, Q Factor, and the rest), and dedicated Map/Audit modes, see the `story-structure` skill.
+
 ## Pacing Diagnostics
 
 **Too slow?** Look for:

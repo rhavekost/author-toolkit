@@ -131,6 +131,8 @@ Typical positive arc progression:
 - **Climax**: Character acts from truth (or chooses lie = tragedy)
 - **Resolution**: New normal reflecting growth
 
+These milestones map onto specific structural beats — the Low point is the Third Plot Point, the Climax is the Climactic Moment. For the full percentage-anchored placement model and content diagnostics at each beat, see the `story-structure` skill.
+
 ## Common Character Issues
 
 | Symptom | Likely Cause | Fix |

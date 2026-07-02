@@ -264,7 +264,7 @@ If the author explicitly asks you to continue past a stopping point, fine—but 
 
 ## Files
 
-- `references/developmental-editing.md` - Plot, structure, pacing analysis
+- `references/developmental-editing.md` - Plot, structure, pacing analysis (see also the `story-structure` skill for landmark-beat percentages and signpost diagnostics)
 - `references/line-editing.md` - Prose-level refinement
 - `references/character-work.md` - Voice, motivation, arc tracking (see also the `character-archetypes` skill for role/personality archetype analysis)
 - `references/continuity-tracking.md` - Timeline and fact consistency
