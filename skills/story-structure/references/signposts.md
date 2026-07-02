@@ -8,10 +8,10 @@ James Scott Bell's 14 named "signposts" from *Super Structure* — a content/psy
 |---|---|---|---|
 | **Disturbance** | Hook / Inciting Event | Opening trouble — ideally the first page or line | Is there a disturbance from line one, rather than an opening in "Happy People in Happy Land" with no conflict? |
 | **Doorway of No Return #1** | First Plot Point | Forces the Lead into Act 2; should land before the 1/5 mark | Have you created a scene strong enough that the Lead could resist, but doesn't? Does it land before the 1/5 mark? |
-| **Mirror Moment** | Midpoint | The dead-center gut-check: "Who am I? What have I become?" (must become a different/better person) or "I'm probably going to die" (must become stronger) | Does the protagonist confront one of these two questions here, not just experience a plot twist? |
+| **Mirror Moment** | Midpoint / Moment of Truth | The dead-center gut-check: "Who am I? What have I become?" (must become a different/better person) or "I'm probably going to die" (must become stronger) | Does the protagonist confront one of these two questions here, not just experience a plot twist? |
 | **Doorway of No Return #2** | Third Plot Point | A crisis/setback or discovery that makes the Final Battle inevitable; roughly the last quarter of the book remaining | Is there no way back from here — is the Final Battle now unavoidable? |
 | **Final Battle** | Climactic Moment | External, internal, or both; resolves the "death stakes" (physical, professional, or psychological) | Does this scene resolve the actual death stakes established in Act 1, not a lesser or subplot conflict? |
-| **Transformation** | Climax / Resolution | Proof the Lead has changed (or tragically refused to) | Is there a concrete, visible sign — action, not just statement — that the Lead is different than at the Hook? |
+| **Transformation** | Climactic Moment / Resolution | Proof the Lead has changed (or tragically refused to) | Is there a concrete, visible sign — action, not just statement — that the Lead is different than at the Hook? |
 
 ## Signposts at Relative Placement
 
