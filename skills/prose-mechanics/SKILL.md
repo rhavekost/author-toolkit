@@ -162,7 +162,7 @@ Each audit has a defined end. Stop at it. Do not auto-advance to the next audit,
 | **Active/Passive audit** | Flagged-issues report for the requested scope is delivered | Wait for author review. Do not apply fixes. Do not start the next audit. |
 | **Parallel Structure audit** | Flagged-issues report is delivered | Same as above. Do not roll forward into variance. |
 | **Sentence Length Variance audit** | Flagged-issues report is delivered (with std-dev numbers and flagged runs) | Wait. Variance fixes ripple, so confirmation matters. |
-| **Accessibility audit** | Flagged-issues report is delivered (with FK grade, paragraph-length, jargon flags) | Wait. Don't pivot into developmental editing if structural concerns surface—surface them and stop. |
+| **Readability audit** | Flagged-issues report is delivered (with FK grade, paragraph-length, jargon flags) | Wait. Don't pivot into developmental editing if structural concerns surface—surface them and stop. |
 | **Approved-fixes pass** | All author-confirmed flags resolved via `str_replace` | Update the tracker. Do not start the next audit without confirmation. |
 | **Audit sequence** | Author defers, OR a later audit reveals the manuscript needs structural work | Stop. Note in tracker. Recommend the author switch to `fiction-workshop` or `narrative-nonfiction` for the structural pass. |
 | **Session** | Stopping point reached or context window is filling | Update `audit-tracker.md`; write a `sessions/` note; stop. |
@@ -177,7 +177,7 @@ If the author explicitly asks you to continue past a stopping point (e.g., "just
 | Active/passive only | "Run active/passive audit on [chapter]" |
 | Parallel structure only | "Run parallel-structure audit on [chapter]" |
 | Sentence variance only | "Run sentence-variance audit on [chapter]" |
-| Accessibility only | "Run accessibility audit on [chapter]" |
+| Readability only | "Run readability audit on [chapter]" |
 | Check audit status | "What audits have run on [chapter]?" |
 
 ---
