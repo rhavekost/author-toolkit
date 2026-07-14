@@ -5,8 +5,11 @@ exact casing/hyphenation as it should appear — e.g. `the Ledger`) and
 flags every occurrence whose casing doesn't match exactly.
 
 ## What This Catches
-"the Ledger" vs "the ledger" vs "The ledger" — capitalization, spelling,
-or hyphenation drift on names the author invented for this world.
+Capitalization drift only. If the canonical form is "the Ledger", this
+audit flags "the ledger" and "The ledger" (case mismatches on an exact
+word match). **Note:** Spelling variants (e.g. "Ledgar" vs "Ledger") and
+hyphenation differences (e.g. "well-lit" vs "well lit") are NOT detected
+— only exact-text case mismatches on literal term matches.
 
 ## What This Does NOT Catch
 Terms not in the config file. If working inside a novel repo that has a
