@@ -119,3 +119,9 @@ Notes: two one-word fragments break the drone. The final sentence keeps the long
 > She walked into the room. He looked up. Their eyes met. The silence held. Then she spoke.
 
 Five short sentences, narrow band—but in a high-tension dialogue beat, this rhythm is doing work. Mechanical detection would flag it; judgment leaves it alone. Note the flag for the author and explain why it might be intentional.
+
+## Engine Hook
+
+If `command -v scriptorium` succeeds, run
+`scriptorium prose audit sentence-variance <chapter>`. Otherwise apply the detection patterns above by
+eye.

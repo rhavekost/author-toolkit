@@ -165,3 +165,9 @@ Flag: "hedonic treadmill," "affective forecasting," "impact bias" — three fiel
 > Psychologists call it the *hedonic treadmill*: the tendency to return to baseline happiness regardless of what happens to us. Lottery winners and accident victims both rebound within months. Part of the reason is that we're bad at predicting how we'll feel—a quirk researchers call *affective forecasting*—and we systematically overestimate how much events will move us.
 
 Notes: each term is introduced with a one-clause definition. After this paragraph the author can use the terms freely.
+
+## Engine Hook
+
+If `command -v scriptorium` succeeds, run
+`scriptorium prose audit readability <chapter>`. Otherwise apply the detection patterns above by
+eye.
