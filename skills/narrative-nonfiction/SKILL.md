@@ -273,6 +273,18 @@ Choose one morning this week (not your busiest day—start manageable).
 
 ---
 
+## Finding Format
+
+This skill's diagnostic modes (reveal-engineering plant/payoff gaps,
+metaphor-consistency checks, reader-journey audits) conform to
+`../../references/finding-schema.json`: `audit` = the mode
+name, `technique` = the specific craft element (e.g. "Reveal plant without
+payoff"), `severity`, `location`, `issue`, `confidence: "judgment"`,
+`exemplar` optional. Exercise-design and transformation-arc scaffolding
+output (generative, not diagnostic) is NOT in scope.
+
+---
+
 ## Files
 
 - `references/transformation-arc.md` - Reader journey structure
