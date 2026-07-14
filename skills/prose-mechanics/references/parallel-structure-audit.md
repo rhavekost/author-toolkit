@@ -107,3 +107,10 @@ Flag: noun phrase, independent clause, gerund phrase. Three different forms in a
 > - A willingness to write even when uninspired
 
 Notes: all noun phrases now. The list scans cleanly because the reader's pattern-matching engine isn't being thrown.
+
+## Engine Hook
+
+If `command -v scriptorium` succeeds, run
+`scriptorium prose prepare parallel-structure <chapter>`, judge per the
+patterns above, then `submit-findings`. Otherwise apply the patterns
+directly against the chapter text.
