@@ -478,3 +478,15 @@ Five principles for human-sounding rewrites:
 If the original writing is already strong, say so and make only the necessary cuts. Don't over-edit for the sake of it.
 
 The replacement table provides defaults, not mandates. If a flagged word is clearly the right choice in context, preserve it.
+
+---
+
+## Cross-listed as a prose-mechanics audit
+
+This skill's detection modes are also registered as the `ai-isms` audit in
+`prose-mechanics`'s roster (audit #19), emitting the same finding contract
+as the other 18 audits. If `command -v scriptorium` succeeds, run
+`scriptorium prose prepare ai-isms <chapter>` for code-detected exact-phrase
+candidates, then judge them plus the full pattern catalog above and submit
+via `scriptorium prose submit-findings`. Standalone invocation of this
+skill (outside the prose-mechanics roster) is unchanged.
