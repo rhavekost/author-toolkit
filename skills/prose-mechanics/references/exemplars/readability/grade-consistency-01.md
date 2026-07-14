@@ -1,0 +1,1 @@
+A paragraph that spikes several grade-levels above its neighbors usually signals either a genuinely important, deliberately dense passage (fine — leave it) or an accidental pileup of Latinate, multi-syllable words where plainer ones would serve the scene better. Read the flagged paragraph aloud: if it doesn't sound like a deliberate register shift, simplify.

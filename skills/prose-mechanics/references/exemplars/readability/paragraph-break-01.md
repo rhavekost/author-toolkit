@@ -1,0 +1,1 @@
+A 300+ word paragraph with no internal pause reads as a wall of text regardless of sentence quality. A break at a natural beat change (new action, new speaker, new idea) restores breathing room without cutting content.
