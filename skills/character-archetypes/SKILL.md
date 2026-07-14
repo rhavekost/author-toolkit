@@ -82,6 +82,18 @@ Each mode has a defined end. Stop at it. Do not auto-advance to the next mode, d
 | **Conformance** | Drift flags delivered for the requested range | Stop. Author decides what's real drift vs. legitimate arc progression. |
 | **Ensemble** | Cast balance report delivered | Stop. Author decides on any cast changes — do not auto-invent new characters. |
 
+## Finding Format
+
+Audit, Conformance, and Ensemble mode output (diagnostic — cliché flags,
+drift flags, cast-balance gaps) conforms to
+`../../references/finding-schema.json`: `audit` = the mode
+name ("archetype-audit", "archetype-conformance", "archetype-ensemble"),
+`technique` = the specific archetype pattern involved (e.g. "Mentor
+archetype cliché" or "Trickster/Shadow cast overlap"), `severity`,
+`location`, `issue`, `confidence: "judgment"`, `exemplar` optional (inline
+one-liner; no curated library yet). Analyzer mode (pairing/recommendation,
+not a flag) is NOT in scope for this contract.
+
 ## Common Mistakes
 
 | Mistake | Fix |
