@@ -266,7 +266,7 @@ If the author explicitly asks you to continue past a stopping point, fine—but 
 
 When this skill's diagnostic modes (developmental-editing critique,
 continuity-tracking flags) produce findings, emit them conforming to
-`../prose-mechanics/references/finding-schema.json`: `audit` (use the mode
+`../../references/finding-schema.json`: `audit` (use the mode
 name, e.g. "developmental-editing"), `technique` (the named craft
 technique — e.g. "Want/Need/Wound/Lie alignment"), `severity`
 (note/suggestion/warning), `location` (file/line/quote), `issue`,

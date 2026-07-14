@@ -66,7 +66,7 @@ Load only the reference file matching the currently invoked audit. Do not preloa
 
 ## Finding Format
 
-Every audit emits findings conforming to `references/finding-schema.json`:
+Every audit emits findings conforming to `../../references/finding-schema.json`:
 `audit`, `technique`, `severity` (note/suggestion/warning), `location`
 (file/line/quote), `issue`, `exemplar` (optional), `confidence`
 (deterministic/judgment). Render findings grouped by severity, resolving
