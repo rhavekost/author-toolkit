@@ -1,9 +1,8 @@
 # Clichés Audit Reference
 
-List-based detection of well-worn phrases (curated list in
-`scriptorium/prose/audits/cliches.py`, mirrored here for the no-engine
-path), judged in-session for whether the usage is genuinely tired or
-deliberately, ironically, or idiomatically fine.
+List-based detection of well-worn phrases (curated list mirrored here for
+the no-engine path), judged in-session for whether the usage is genuinely
+tired or deliberately, ironically, or idiomatically fine.
 
 ## What This Catches
 Exact-match stock phrases from a curated list of 26 common clichés:

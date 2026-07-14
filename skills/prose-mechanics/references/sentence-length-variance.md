@@ -123,5 +123,9 @@ Five short sentences, narrow band—but in a high-tension dialogue beat, this rh
 ## Engine Hook
 
 If `command -v scriptorium` succeeds, run
-`scriptorium prose audit sentence-variance <chapter>`. Otherwise apply the detection patterns above by
-eye.
+`scriptorium prose audit sentence-variance <chapter>`. The engine implements
+detection pattern #1 only (narrow-band runs, ±3 words) as a fast deterministic
+pass; patterns #2-5 above (std-dev targets, chapter-scale flatness, mechanical
+alternation) are for conversational/manual application when working without
+the engine, or as additional judgment on top of the engine's findings.
+Otherwise apply the detection patterns above by eye.
