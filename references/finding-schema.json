@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "author-toolkit finding",
+  "type": "object",
+  "required": ["audit", "technique", "severity", "location", "issue", "confidence"],
+  "additionalProperties": false,
+  "properties": {
+    "audit": { "type": "string", "minLength": 1 },
+    "technique": { "type": "string", "minLength": 1 },
+    "severity": { "enum": ["note", "suggestion", "warning"] },
+    "location": {
+      "type": "object",
+      "required": ["file", "line", "quote"],
+      "additionalProperties": false,
+      "properties": {
+        "file": { "type": "string", "minLength": 1 },
+        "line": { "type": "integer", "minimum": 1 },
+        "quote": { "type": "string", "minLength": 1 }
+      }
+    },
+    "issue": { "type": "string", "minLength": 1 },
+    "exemplar": { "type": "string" },
+    "confidence": { "enum": ["deterministic", "judgment"] }
+  }
+}
