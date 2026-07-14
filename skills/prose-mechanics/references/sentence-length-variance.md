@@ -53,7 +53,7 @@ These are starting points, not laws. A paragraph below the target is a candidate
 
 A paragraph is flagged if it contains:
 
-1. **Five or more consecutive sentences within a narrow length band.** "Narrow" = within ±20% of each other. This is the most reliable trigger; even a single such run is worth surfacing.
+1. **Five or more consecutive sentences within a narrow length band.** "Narrow" = where the longest sentence is at most 3 words longer than the shortest sentence in the run. This is the most reliable trigger; even a single such run is worth surfacing.
 2. **Paragraph-level standard deviation below the register's target.**
 3. **Three consecutive paragraphs where every paragraph's mean sentence length is within ±2 words of the others.** Chapter-scale flatness.
 4. **Mechanical alternation:** strict short/long/short/long for six or more sentences. This is a different failure mode but produces similar reader fatigue.

@@ -77,8 +77,7 @@ Readability scores cover sentence and word complexity. They do not cover **struc
 ### Paragraph Length
 
 Flag any paragraph that:
-- Exceeds 150 words in commercial fiction or general nonfiction
-- Exceeds 250 words in literary or long-form work
+- Exceeds 300 words (flat limit regardless of register)
 - Runs more than three "ideas" without a break (judgment call)
 
 ### Header Density (Nonfiction)
@@ -146,7 +145,7 @@ Notes: same idea, split into three sentences, no loss of substance. The chapter 
 
 ### Example 2: Paragraph Bloat (Narrative Nonfiction)
 
-**Before:** A 280-word paragraph describing a historical incident, no breath, three distinct sub-events stacked into one block.
+**Before:** A 310-word paragraph describing a historical incident, no breath, three distinct sub-events stacked into one block.
 
 **After:** Three paragraphs of roughly 90 words each, broken at the natural sub-event boundaries. The page now offers visual rest points and the reader's eye has somewhere to land.
 
