@@ -53,7 +53,7 @@ These are starting points, not laws. A paragraph below the target is a candidate
 
 A paragraph is flagged if it contains:
 
-1. **Five or more consecutive sentences within a narrow length band.** "Narrow" = within ±20% of each other. This is the most reliable trigger; even a single such run is worth surfacing.
+1. **Five or more consecutive sentences within a narrow length band.** "Narrow" = where the longest sentence is at most 3 words longer than the shortest sentence in the run. This is the most reliable trigger; even a single such run is worth surfacing.
 2. **Paragraph-level standard deviation below the register's target.**
 3. **Three consecutive paragraphs where every paragraph's mean sentence length is within ±2 words of the others.** Chapter-scale flatness.
 4. **Mechanical alternation:** strict short/long/short/long for six or more sentences. This is a different failure mode but produces similar reader fatigue.
@@ -119,3 +119,9 @@ Notes: two one-word fragments break the drone. The final sentence keeps the long
 > She walked into the room. He looked up. Their eyes met. The silence held. Then she spoke.
 
 Five short sentences, narrow band—but in a high-tension dialogue beat, this rhythm is doing work. Mechanical detection would flag it; judgment leaves it alone. Note the flag for the author and explain why it might be intentional.
+
+## Engine Hook
+
+If `command -v scriptorium` succeeds, run
+`scriptorium prose audit sentence-variance <chapter>`. Otherwise apply the detection patterns above by
+eye.
