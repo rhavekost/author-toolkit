@@ -262,6 +262,22 @@ If the author explicitly asks you to continue past a stopping point, fine—but 
 
 ---
 
+## Finding Format
+
+When this skill's diagnostic modes (developmental-editing critique,
+continuity-tracking flags) produce findings, emit them conforming to
+`../prose-mechanics/references/finding-schema.json`: `audit` (use the mode
+name, e.g. "developmental-editing"), `technique` (the named craft
+technique — e.g. "Want/Need/Wound/Lie alignment"), `severity`
+(note/suggestion/warning), `location` (file/line/quote), `issue`,
+`confidence` ("judgment" — this skill has no deterministic component), and
+optionally `exemplar` (a one-sentence illustration inline, since this
+skill has no curated exemplar library yet — grow one opportunistically).
+Brainstorming and drafting-proposal output is NOT in scope for this
+contract.
+
+---
+
 ## Files
 
 - `references/developmental-editing.md` - Plot, structure, pacing analysis (see also the `story-structure` skill for landmark-beat percentages and signpost diagnostics)
