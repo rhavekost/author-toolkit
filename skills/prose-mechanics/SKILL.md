@@ -38,18 +38,56 @@ This skill is NOT for:
 
 ## Audit Passes
 
-Run audits **one at a time, in order**. Order matters because earlier audits change what later audits flag—an active-voice rewrite reshuffles sentence lengths, and a parallel-structure fix can ripple into the variance pass.
+Run audits **one at a time, in order**. Order matters because earlier audits change what later audits flag. Recommended sequence: frequency-family first (they inform the crutch-words config), mechanical passes next, semantic passes last (judgment-expensive; don't run on prose about to be reworked).
 
-| # | Audit | Invocation | Catches |
-|---|-------|------------|---------|
-| 1 | **Active/Passive** | "Run active/passive audit on..." | Unjustified passive constructions, hidden agents |
-| 2 | **Parallel Structure** | "Run parallel-structure audit on..." | Broken grammatical parallels in lists, comparisons, series |
-| 3 | **Sentence Length Variance** | "Run sentence-variance audit on..." | Five-plus consecutive sentences in a narrow length band; flat rhythm |
-| 4 | **Accessibility** | "Run accessibility audit on..." | Reading-grade spikes, paragraph bloat, structural impenetrability |
+| # | Audit | Class | Invocation | Catches |
+|---|-------|-------|------------|---------|
+| 1 | Active/Passive | hybrid | "Run active/passive audit on..." | Unjustified passive, hidden agency |
+| 2 | Parallel Structure | semantic | "Run parallel-structure audit on..." | Broken grammatical parallels |
+| 3 | Sentence Variance | deterministic | "Run sentence-variance audit on..." | Flat rhythm, narrow length bands |
+| 4 | Readability | deterministic | "Run readability audit on..." | Grade-level spikes, paragraph bloat |
+| 5 | Echoes | deterministic | "Run echoes audit on..." | Word repeated within 100 words |
+| 6 | Frequency | deterministic | "Run frequency audit on..." | Manuscript-wide word overuse |
+| 7 | Crutch Words | deterministic | "Run crutch-words audit on..." | Author-specific overused words |
+| 8 | Filter Words | deterministic | "Run filter-words audit on..." | felt/saw/heard/realized/noticed/watched |
+| 9 | Adverb Audit | deterministic | "Run adverb audit on..." | -ly density, dialogue vs. narration |
+| 10 | Dialogue Tags | hybrid | "Run dialogue-tags audit on..." | Said-bookisms, adverb-modified tags |
+| 11 | Sticky Sentences | deterministic | "Run sticky-sentences audit on..." | Glue-word density |
+| 12 | Sentence Starters | deterministic | "Run sentence-starters audit on..." | Repeated opener patterns |
+| 13 | Tense Consistency | hybrid | "Run tense-consistency audit on..." | Unintentional tense flips |
+| 14 | Invented-Term Consistency | deterministic | "Run invented-term-consistency audit on..." | Capitalization/spelling drift |
+| 15 | Clichés | hybrid | "Run cliches audit on..." | Well-worn phrases |
+| 16 | Pronoun Clarity | semantic | "Run pronoun-clarity audit on..." | Ambiguous antecedents |
+| 17 | Show vs. Tell | semantic | "Run show-vs-tell audit on..." | Named vs. dramatized emotion |
+| 18 | POV Consistency | semantic | "Run pov-consistency audit on..." | Head-hopping, knowledge violations |
+| 19 | AI-Isms | hybrid | "Run ai-isms audit on..." | Cross-lists `avoid-ai-writing` |
 
-Load only the reference file matching the currently invoked audit. Do not preload all references at session start—it wastes context budget. If switching audits mid-session, load the new reference file and treat the prior one as out-of-scope.
+Load only the reference file matching the currently invoked audit. Do not preload all references at session start — it wastes context budget. If switching audits mid-session, load the new reference file and treat the prior one as out-of-scope.
 
-See `references/` for detailed guidance on each audit.
+## Finding Format
+
+Every audit emits findings conforming to `references/finding-schema.json`:
+`audit`, `technique`, `severity` (note/suggestion/warning), `location`
+(file/line/quote), `issue`, `exemplar` (optional), `confidence`
+(deterministic/judgment). Render findings grouped by severity, resolving
+any `exemplar` reference against `references/exemplars/<ref>.md`.
+
+## Engine Hook
+
+Before running any audit, check `command -v scriptorium`. If it succeeds:
+- **Deterministic audits:** run `scriptorium prose audit <name> <chapter>`
+  and treat its JSON as authoritative — do not re-derive findings by hand.
+- **Hybrid audits:** run `scriptorium prose prepare <name> <chapter>` to
+  get code-detected candidates, judge each per that audit's reference
+  file, then `scriptorium prose submit-findings <state> --findings-file
+  <file>`.
+- **Semantic audits:** run `scriptorium prose prepare <name> <chapter>`
+  (no candidates — pure judgment over the raw chapter), judge per the
+  embedded instructions, then `submit-findings`.
+
+If `scriptorium` is unavailable, perform the audit conversationally using
+the reference file's detection rules directly — this is the audit's full
+specification, not an abbreviated fallback.
 
 ## Workflow
 
