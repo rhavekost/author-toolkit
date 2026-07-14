@@ -96,3 +96,11 @@ Notes: nominalizations unpacked, passive removed, sentence length cut by a third
 > The manuscript was rejected on the same Tuesday her father died.
 
 The actor (the publisher, the editor) is irrelevant. The patient—the manuscript, the protagonist—is the subject of the scene's emotional weight. **This passive is correct.** A version that surfaces the agent ("Some editor at Knopf rejected the manuscript on the same Tuesday her father died") trades the right focus for grammatical "correctness."
+
+## Engine Hook
+
+If `command -v scriptorium` succeeds, run
+`scriptorium prose prepare active-passive <chapter>` to get code-detected
+candidates, judge each per the Detection/Remediation Patterns above, then
+submit via `scriptorium prose submit-findings`. Otherwise apply the
+detection patterns directly against the chapter text.
