@@ -76,6 +76,16 @@ Each mode has a defined end. Stop at it. Do not auto-advance to the other mode, 
 | **Map** | Structure Map block completed for all 11 landmarks | Hand back for author confirmation. Do not auto-write to Story Bible. |
 | **Audit** | Flagged-beat report delivered (missing/mistimed/thin beats, Faux Climax check) | Stop. No auto-rewrite — author decides which flags to act on. |
 
+## Finding Format
+
+Audit-mode output (missing/misplaced landmark beats, signpost gaps)
+conforms to `../../references/finding-schema.json`: `audit` =
+"story-structure-audit", `technique` = the specific landmark or signpost
+involved (e.g. "Weiland Midpoint" or "Bell Pinch Point 1"), `severity`,
+`location` (chapter-level if no single line applies — use line 1 of the
+chapter and describe the gap in `issue`), `confidence: "judgment"`,
+`exemplar` optional. Map-building mode (not diagnostic) is NOT in scope.
+
 ## Common Mistakes
 
 | Mistake | Fix |
