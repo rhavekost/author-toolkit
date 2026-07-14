@@ -44,8 +44,8 @@ Run audits **one at a time, in order**. Order matters because earlier audits cha
 |---|-------|-------|------------|---------|
 | 1 | Active/Passive | hybrid | "Run active/passive audit on..." | Unjustified passive, hidden agency |
 | 2 | Parallel Structure | semantic | "Run parallel-structure audit on..." | Broken grammatical parallels |
-| 3 | Sentence Variance | deterministic | "Run sentence-variance audit on..." | Flat rhythm, narrow length bands |
-| 4 | Readability | deterministic | "Run readability audit on..." | Grade-level spikes, paragraph bloat |
+| 3 | Sentence Variance (file: `sentence-length-variance.md`) | deterministic | "Run sentence-variance audit on..." | Flat rhythm, narrow length bands |
+| 4 | Readability (file: `accessibility-audit.md`) | deterministic | "Run readability audit on..." | Grade-level spikes, paragraph bloat |
 | 5 | Echoes | deterministic | "Run echoes audit on..." | Word repeated within 100 words |
 | 6 | Frequency | deterministic | "Run frequency audit on..." | Manuscript-wide word overuse |
 | 7 | Crutch Words | deterministic | "Run crutch-words audit on..." | Author-specific overused words |
