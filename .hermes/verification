@@ -1,1 +1,1 @@
-sleep 30
+python3 .hermes/verify_repo.py
