@@ -183,3 +183,4 @@ vendored commit SHA are recorded in [ATTRIBUTION.md](ATTRIBUTION.md).
 MIT. See [LICENSE](LICENSE). Vendored third-party skills retain their
 original licenses inside their skill directories — see
 [ATTRIBUTION.md](ATTRIBUTION.md) for details.
+<!-- kanban-gate credential confirmation -->
